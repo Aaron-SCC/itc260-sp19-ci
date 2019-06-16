@@ -58,6 +58,9 @@ $route['news'] = 'news';
 //$route['(:any)'] = 'pages/view/$1';
 //$route['default_controller'] = 'pages/view';
 
+//routes for our pics controller
+$route['pics'] = 'pics';
+
 // default routes BELOW
 $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
